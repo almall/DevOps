@@ -4,6 +4,7 @@ provider "google" {
   zone    = var.zone
 }
 
+
 terraform {
   backend "gcs" {
     bucket = "tf-state-prod-edemdevsecops-almall"
